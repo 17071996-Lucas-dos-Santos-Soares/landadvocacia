@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-expand-lg{
+    background: #000;
+}
+
+.navbar-expand-lg a{
+    text-transform: uppercase;
+    color: #AD730C;
+    transition: all .2s ease-in-out;
+}
+
+.navbar-expand-lg a:hover{
+    transition: all .2s ease-in-out;
+    color: #D99414;
+}
+
+.hero{
+    width: 100%;
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    background-image: url(/imagens/fundohome.png);
+    background-repeat: no-repeat;
+    background-position: 100%, 100%;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.hero h1{
+    text-align: left;
+    margin-left: -900px;
+    color: #d28d0e;
+    margin:0;
+    font-family: "Amiri", serif;
+    font-size: 26px;
+    font-weight: normal;
+    line-height: 1rem;
+}
+
+.hero h2{
+    font-family: "Amiri", serif;
+    text-align: left;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #f1f2f6;
+}
+
+.hero p{
+    font-family: "Amiri", serif;
+    text-align: center;
+    color: #f1f2f6;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.hero a{
+    background: transparent;
+    color: #d28d0e;
+    font-family: "Amiri", serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid #d28d0e;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.hero a:hover{
+    transition: all .2s ease-in-out;
+    background: #d28d0e;
+    color: #f1f2f6;
+}
+
+.section-1{
+    width: 100%;
+    height: 30vh;
+    float: left;
+}
+
+.section-1 h3{
+    color: #333;
+    font-family: "Amiri", serif;
+    font-size: 28px;
+}
+
+.section-1,.card-title, h5{
+    font-family: "Amiri", serif;
+    font-size: 18px;
+    color: #d28d0e;
+}
+
+.section-1,.card-text,p{
+    color: #333;
+    font-family: "Amiri", serif;
+    font-size: 17px;
+    font-style: italic;
+}
+
+.section-1 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.section-2{
+    width: 100%;
+    float: left;
+    height: 30vh;
+    margin-top: 290px;
+    background-color: #000;
+}
