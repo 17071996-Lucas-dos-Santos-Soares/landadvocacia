@@ -91,7 +91,7 @@
 .section-1 h3{
     color: #333;
     font-family: "Amiri", serif;
-    font-size: 28px;
+    font-size: 50px;
 }
 
 .section-1,.card-title, h5{
@@ -118,4 +118,61 @@
     float: left;
     height: 30vh;
     margin-top: 290px;
+}
+
+.section-2 h3{
+    color: #d28d0e;
+    font-family: "Amiri", serif;
+    font-size: 26px;
+    text-transform: capitalize;
+}
+.section-2 p{
+    font-family: "Monteserrat", sans-serif;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.6px;
+}
+.section-2 h4{
+    font-family: "Amiri", serif;
+    font-size: 50px;
+    font-style: italic;
+    color: #333;
+}
+.service-box{
+    width: 300px;
+    height: 300px;
+    padding-bottom: 20px;
+    margin: 10px;
+}
+.service-box .col-md-4{
+    width: 20%;
+}
+.service-box img{
+    width: 40px;
+    padding-top: 20px;
+    transition: all 0.2s ease-in-out;
+}
+.service-box img:hover{
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.2);
+}
+.service-box.col-md-4{
+    width: 20%;
+}
+.service-box-1{
+    background-color: #000;
+    border-radius: 10px;
+    border: solid 2px #d28d0e;
+}
+
+.service-box h4{
+    color: #f1f2f6;
+    font-family: "Amiri", serif;
+    font-size: 26px;
+}
+
+.service-box p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f1f2f6;
+    font-size: 1rem;
 }
